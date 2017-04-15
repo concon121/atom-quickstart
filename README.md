@@ -9,6 +9,14 @@ You will need to ensure that the origin git repository is your own.  You can cha
 git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
 ```
 
+## Installation
+
+```
+git clone https://github.com/concon121/atom-quickstart.git
+cd atom-quickstart
+sudo make
+```
+
 ## Usage
 
 ```
