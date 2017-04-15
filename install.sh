@@ -16,7 +16,7 @@ do
   ./plugins/${plugin}
 done
 
-ln -s "${currentDir}/config.cson" $HOME/.atom/config.cson
+ln -sf "${currentDir}/config.cson" $HOME/.atom/config.cson
 
 sudo apt-get -y install inotify-tools
 
