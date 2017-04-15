@@ -42,6 +42,8 @@
   "linter-eslint":
     fixOnSave: true
     lintHtmlFiles: true
+  "linter-javac":
+    classpathFilename: ".atom-classpath"
   "linter-js-standard":
     checkStyleDevDependencies: true
     honorStyleSettings: false
