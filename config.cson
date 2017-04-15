@@ -24,6 +24,7 @@
     ruby:
       beautify_on_save: true
   core:
+    closeDeletedFileTabs: true
     telemetryConsent: "no"
   "exception-reporting":
     userId: "110bb6f9-b221-46bb-894e-cc3b978a51b6"
