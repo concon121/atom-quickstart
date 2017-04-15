@@ -16,6 +16,8 @@ do
   ./plugins/${plugin}
 done
 
+sudo apm upgrade
+
 ln -sf "${currentDir}/config.cson" $HOME/.atom/config.cson
 ln -sf "${currentDir}/init.coffee" $HOME/.atom/init.coffee
 ln -sf "${currentDir}/keymap.cson" $HOME/.atom/keymap.cson
