@@ -1,0 +1,50 @@
+"*":
+  "atom-beautify":
+    bash:
+      beautify_on_save: true
+    general:
+      _analyticsUserId: "d22e841b-58b7-4104-9647-1129661e82c2"
+    java: {}
+    js:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_size: 2
+      jslint_happy: true
+      space_after_anon_function: true
+    json:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_size: 2
+      jslint_happy: true
+      space_after_anon_function: true
+    markdown:
+      beautify_on_save: true
+    puppet:
+      beautify_on_save: true
+    ruby:
+      beautify_on_save: true
+  core:
+    telemetryConsent: "no"
+  "exception-reporting":
+    userId: "110bb6f9-b221-46bb-894e-cc3b978a51b6"
+  "linter-eslint":
+    fixOnSave: true
+    lintHtmlFiles: true
+  "linter-js-standard":
+    checkStyleDevDependencies: true
+    honorStyleSettings: false
+    lintHtmlFiles: true
+    lintMarkdownFiles: true
+    showEslintRules: true
+    style: "happiness"
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-json-lint":
+    allowComments: true
+  "linter-ui-default":
+    showPanel: true
+  "tool-bar":
+    iconSize: "16px"
+    position: "Right"
+  welcome:
+    showOnStartup: false
