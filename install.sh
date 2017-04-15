@@ -30,11 +30,11 @@ then
   sudo apm upgrade -c false
 
   echo "Moving atom.io configuration"
-  ln -sf "${currentDir}/config.cson" $HOME/.atom/config.cson
-  ln -sf "${currentDir}/init.coffee" $HOME/.atom/init.coffee
-  ln -sf "${currentDir}/keymap.cson" $HOME/.atom/keymap.cson
-  ln -sf "${currentDir}/snippets.cson" $HOME/.atom/snippets.cson
-  ln -sf "${currentDir}/styles.less" $HOME/.atom/styles.less
+  ln -sf "${currentDir}/config/config.cson" $HOME/.atom/config.cson
+  ln -sf "${currentDir}/config/init.coffee" $HOME/.atom/init.coffee
+  ln -sf "${currentDir}/config/keymap.cson" $HOME/.atom/keymap.cson
+  ln -sf "${currentDir}/config/snippets.cson" $HOME/.atom/snippets.cson
+  ln -sf "${currentDir}/config/styles.less" $HOME/.atom/styles.less
 
   echo "Watching atom.io configuration for changes"
   sudo apt-get -y install inotify-tools
