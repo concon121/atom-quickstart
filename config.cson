@@ -23,6 +23,8 @@
       beautify_on_save: true
     ruby:
       beautify_on_save: true
+  "autocomplete-java":
+    classpathFilePath: ".atomclasspath"
   core:
     closeDeletedFileTabs: true
     followSymlinks: false
