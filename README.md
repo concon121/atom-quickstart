@@ -11,9 +11,10 @@ sudo make ORIGIN=git@github.com:USERNAME/REPOSITORY.git
 ```
 
 ## Usage
+You can add atom-quickstart to your $HOME/.bashrc file.  There are of course checks in place to ensure that only one instance of atom-quickstart is ever running.
 
 ```
-sudo bash ./install.sh
+sudo atom-quickstart &
 ```
 
 ## Adding a new plugin
