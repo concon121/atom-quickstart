@@ -7,4 +7,4 @@ copy_resources:
 $(shell cp -R ./* /usr/lib/atom-quickstart)
 
 make_symlink:
-$(shell ln -sf /usr/lib/install.sh /usr/bin/atom-quickstart)
+$(shell ln -sf /usr/lib/atom-quickstart/install.sh /usr/bin/atom-quickstart)
