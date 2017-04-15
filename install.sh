@@ -1,12 +1,11 @@
 #!/bin/bash
-set -x
 
 running=`ps -aux | grep "/bin/bash /usr/bin/atom-quickstart" | wc -l`
 
 if [ "${running}" -lt 4 ]
 then
   echo "Starting atom-quickstart"
-  currentDir=`pwd`
+  sourceDir="/usr/lib/atom-quickstart"
 
   installed=`which atom`
   if [ -z "${installed}" ]
@@ -20,7 +19,7 @@ then
   fi
 
   echo "Installing atom.io plugins"
-  plugins=(`ls plugins`)
+  plugins=(`ls "${sourceDir}/plugins"`)
   for plugin in "${plugins[@]}"
   do
     ./plugins/${plugin}
@@ -30,15 +29,15 @@ then
   sudo apm upgrade -c false
 
   echo "Moving atom.io configuration"
-  ln -sf "${currentDir}/config/config.cson" $HOME/.atom/config.cson
-  ln -sf "${currentDir}/config/init.coffee" $HOME/.atom/init.coffee
-  ln -sf "${currentDir}/config/keymap.cson" $HOME/.atom/keymap.cson
-  ln -sf "${currentDir}/config/snippets.cson" $HOME/.atom/snippets.cson
-  ln -sf "${currentDir}/config/styles.less" $HOME/.atom/styles.less
+  ln -sf "${sourceDir}/config/config.cson" $HOME/.atom/config.cson
+  ln -sf "${sourceDir}/config/init.coffee" $HOME/.atom/init.coffee
+  ln -sf "${sourceDir}/config/keymap.cson" $HOME/.atom/keymap.cson
+  ln -sf "${sourceDir}/config/snippets.cson" $HOME/.atom/snippets.cson
+  ln -sf "${sourceDir}/config/styles.less" $HOME/.atom/styles.less
 
   echo "Watching atom.io configuration for changes"
   sudo apt-get -y install inotify-tools
-  inotifywait -q -m -r -e close_write "${currentDir}" |
+  inotifywait -q -m -r -e close_write "${sourceDir}" |
   while read -r filename event; do
     sleep 60
     git pull origin master

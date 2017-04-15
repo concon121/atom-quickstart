@@ -1,6 +1,9 @@
 # atom-quickstart
 A bash script to set up atom.io for Debian destros!
 
+* Auto-magically update all of your atom plugins.
+* Install and manage new plugins.
+* Backup all of your atom configuration to your github account.
 
 ## Installation
 
