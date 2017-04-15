@@ -25,6 +25,7 @@
       beautify_on_save: true
   "autocomplete-java":
     classpathFilePath: ".atom-classpath"
+    refreshClassOnSave: false
   core:
     closeDeletedFileTabs: true
     followSymlinks: false
