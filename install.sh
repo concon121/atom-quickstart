@@ -22,7 +22,7 @@ then
   plugins=(`ls "${sourceDir}/plugins"`)
   for plugin in "${plugins[@]}"
   do
-    ./plugins/${plugin}
+    ${sourceDir}/plugins/${plugin}
   done
 
   echo "Ensuring atom.io plugins are up to date"

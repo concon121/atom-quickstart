@@ -10,7 +10,7 @@ A bash script to set up atom.io for Debian destros!
 ```
 git clone https://github.com/concon121/atom-quickstart.git
 cd atom-quickstart
-sudo make ORIGIN=git@github.com:USERNAME/REPOSITORY.git
+sudo make ORIGIN=git@github.com:USERNAME/REPOSITORY.git USER=your-username
 ```
 
 ## Usage
