@@ -22,7 +22,8 @@ sudo apt-get -y install inotify-tools
 
 inotifywait -q -m -e close_write "${currentDir}/config.cson" |
 while read -r filename event; do
-  git add "${currentDir}/config.cson"
+  git pull origin master
+  git add .
   git commit -m "Updated atom.io configuration"
   git push origin master
 done

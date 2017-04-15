@@ -34,7 +34,7 @@ sudo apt-get -y install python python3 python-pip crystal dmd-bin ruby-full cmak
 # =============================================================================
 # pip installs
 # =============================================================================
-sudo pip install --upgrade beautysh autopep8 pybeautifier sqlparse
+sudo -H pip install --upgrade beautysh autopep8 pybeautifier sqlparse
 
 # =============================================================================
 # Ruby Gems
