@@ -5,6 +5,8 @@ running=`ps -aux | grep "/bin/bash /usr/bin/atom-quickstart" | wc -l`
 if [ "${running}" -lt 4 ]
 then
   echo "Starting atom-quickstart"
+  
+  currentDir=`pwd` 
   sourceDir="/usr/lib/atom-quickstart"
 
   installed=`which atom`
@@ -40,10 +42,12 @@ then
   inotifywait -q -m -r -e close_write "${sourceDir}" |
   while read -r filename event; do
     sleep 60
+    cd ${sourceDir}
     git pull origin master
     git add .
     git commit -m "Updated atom-quickstart configuration: ${filename} / ${event}"
     git push origin master
+    cd ${currentDir}
   done
 else
   echo "atom-quickstart is already running"
