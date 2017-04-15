@@ -1,4 +1,4 @@
-all: create_lib copy_resources make_symlink
+#all: create_lib copy_resources make_symlink
 
 create_lib: 
 $(shell mkdir -p /usr/lib/atom-quickstart)
