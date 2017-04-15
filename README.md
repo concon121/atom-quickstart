@@ -1,20 +1,13 @@
 # atom-quickstart
 A bash script to set up atom.io for Debian destros!
 
-## Configuration
-
-You will need to ensure that the origin git repository is your own.  You can change your origin repo with the following command:
-
-```
-git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
-```
 
 ## Installation
 
 ```
 git clone https://github.com/concon121/atom-quickstart.git
 cd atom-quickstart
-sudo make
+sudo make ORIGIN=git@github.com:USERNAME/REPOSITORY.git
 ```
 
 ## Usage
