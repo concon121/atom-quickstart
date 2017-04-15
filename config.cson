@@ -23,6 +23,8 @@
       beautify_on_save: true
     ruby:
       beautify_on_save: true
+  "atom-maven":
+    classpathFileName: ".atom-classpath"
   "autocomplete-java":
     classpathFilePath: ".atom-classpath"
     refreshClassOnSave: false
