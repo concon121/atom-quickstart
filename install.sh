@@ -26,6 +26,7 @@ sudo apt-get -y install inotify-tools
 
 inotifywait -q -m -r -e close_write "${currentDir}" |
 while read -r filename event; do
+  sleep 60
   git pull origin master
   git add .
   git commit -m "Updated atom-quickstart configuration: ${filename} / ${event}"
