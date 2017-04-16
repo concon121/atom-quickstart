@@ -58,7 +58,7 @@
   "linter-ui-default":
     showPanel: true
   "tool-bar":
-    iconSize: "16px"
+    iconSize: "12px"
     position: "Right"
   welcome:
     showOnStartup: false
