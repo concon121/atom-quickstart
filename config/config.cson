@@ -19,6 +19,7 @@
       space_after_anon_function: true
     markdown:
       beautify_on_save: true
+      default_beautifier: "Remark"
     puppet:
       beautify_on_save: true
     ruby:
