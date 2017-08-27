@@ -61,5 +61,7 @@
   "tool-bar":
     iconSize: "16px"
     position: "Right"
+  "vim-mode-plus-ex-mode":
+    notifiedUseExMode: true
   welcome:
     showOnStartup: false
