@@ -36,6 +36,8 @@
     telemetryConsent: "no"
   "exception-reporting":
     userId: "110bb6f9-b221-46bb-894e-cc3b978a51b6"
+  "file-types":
+    template: ""
   "java-generator":
     toggles:
       appendThisToGetters: true
