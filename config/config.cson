@@ -60,8 +60,9 @@
   "linter-ui-default":
     showPanel: true
   "sync-settings":
+    _lastBackupHash: "ba46f32e916ddcbae202ed91f85ef9999eb18ec3"
     gistId: "334756cfe7b5a9e0ce665d38c552ec4d"
-    personalAccessToken: "e725eb711b452010213f37bd502eded5b8ebfcdf"
+    personalAccessToken: "93d6abb4fee04fd5ce0e9e96712a569d03c81e89"
     quietUpdateCheck: true
     removeObsoletePackages: true
   "tool-bar":
