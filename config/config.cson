@@ -60,7 +60,7 @@
   "linter-ui-default":
     showPanel: true
   "sync-settings":
-    gistId: "init"
+    gistId: "gist:334756cfe7b5a9e0ce665d38c552ec4d"
     personalAccessToken: "7256c7486879a9815d7ada933c71b5ce1ced2d89"
     quietUpdateCheck: true
     removeObsoletePackages: true
