@@ -59,6 +59,8 @@
     allowComments: true
   "linter-ui-default":
     showPanel: true
+  "sync-settings":
+    personalAccessToken: "7256c7486879a9815d7ada933c71b5ce1ced2d89"
   "tool-bar":
     iconSize: "16px"
     position: "Right"
