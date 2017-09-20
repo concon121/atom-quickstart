@@ -61,10 +61,9 @@
     showPanel: true
   "sync-settings":
     _lastBackupHash: "ba46f32e916ddcbae202ed91f85ef9999eb18ec3"
-    gistId: "334756cfe7b5a9e0ce665d38c552ec4d"
-    personalAccessToken: "93d6abb4fee04fd5ce0e9e96712a569d03c81e89"
+    gistId: "be0c571e97df1e57f60ae9abd7e75573"
+    personalAccessToken: "8cac091ae422876fa62b8a8cb9a370fb2d78376b"
     quietUpdateCheck: true
-    removeObsoletePackages: true
   "tool-bar":
     iconSize: "16px"
     position: "Right"
